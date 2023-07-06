@@ -1,0 +1,15 @@
+
+
+
+
+create table IMDB(
+  id integer primary key,
+  Movie_Image VARBINARY,
+  Reviews text,
+  User text,
+  Artist text,
+  Role_of_Artist text
+  )
+  insert into imdb (id,movie_image,reviews,user,artist,role_of_artist) values(1,"image 1 of Mersal","Nice movie","Dhanush","VIJAY","Father")
+
+
